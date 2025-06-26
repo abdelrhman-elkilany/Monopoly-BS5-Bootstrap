@@ -1,0 +1,108 @@
+.middle-cell {
+  height: 7.6vh;
+  background-color: #f8f9fa;
+}
+
+.middle-cell:first-child,
+.middle-cell:last-child {
+  border-left: 1.4px solid #000;
+  border-right: 1.4px solid #000;
+  border-bottom: 1.4px solid #000;
+}
+
+.top-cell {
+  height: 15.4vh;
+  border-top: 1.4px solid #000;
+  border-left: 1.4px solid #000;
+  border-bottom: 1.4px solid #000;
+  background-color: #f8f9fa;
+}
+
+.bottom-cell {
+  height: 15.4vh;
+  border-left: 1.4px solid #000;
+  border-bottom: 1.4px solid #000;
+  background-color: #f8f9fa;
+}
+
+.bottom-cell:not(:first-child, :last-child) {
+  border-top: 1.4px solid #000;
+}
+
+.top-cell:last-child,
+.bottom-cell:last-child {
+  border-right: 1.4px solid #000;
+}
+
+.monopoly-container {
+  position: relative;
+  height: 100vh;
+}
+
+#sumerge-logo {
+  position: absolute;
+  width: 40vw;
+  max-width: 100%;
+  max-height: 100%;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -60%) rotate(-25deg);
+
+}
+
+.property {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  text-align: center;
+  background-color: white;
+}
+
+.property-name {
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.property-price {
+  font-size: 0.7rem;
+  color: #555;
+}
+
+.property-icon {
+  width: 100%;
+  max-width: 40px;
+  margin-bottom: 4px;
+}
+
+.purple {
+  background-color: #5b2c6f;
+}
+.lightblue {
+  background-color: #5dade2;
+}
+.pink {
+  background-color: #f1948a;
+}
+.orange {
+  background-color: #f5b041;
+}
+.red {
+  background-color: #ec7063;
+}
+.yellow {
+  background-color: #f7dc6f;
+}
+.green {
+  background-color: #28b463;
+}
+.darkblue {
+  background-color: #2471a3;
+}
+
+.purple .property-price,
+.purple .property-name {
+  color: white;
+}

@@ -1,0 +1,501 @@
+<html>
+  <head>
+    <title>Monopoly Game</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./main.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <h2 class="d-flex justify-content-center">Initial</h2>
+    <div class="container monopoly-container">
+      <!--Start first row -->
+      <div class="row g-0">
+        <div class="col-2 top-cell"></div>
+        <div class="col top-cell"></div>
+        <div class="col top-cell"></div>
+        <div class="col top-cell"></div>
+        <div class="col top-cell"></div>
+        <div class="col top-cell"></div>
+        <div class="col top-cell"></div>
+        <div class="col top-cell"></div>
+        <div class="col top-cell"></div>
+        <div class="col top-cell"></div>
+        <div class="col-2 top-cell"></div>
+      </div>
+      <!--End first row -->
+
+      <!--Start Medium rows -->
+      <!-- 2nd row-->
+      <div class="row g-0">
+        <div class="col-2 middle-cell"></div>
+        <div class="col-8 middle-cell"></div>
+        <div class="col-2 middle-cell"></div>
+      </div>
+
+      <!-- 3rd row-->
+      <div class="row g-0">
+        <div class="col-2 middle-cell"></div>
+        <div class="col-8 middle-cell"></div>
+        <div class="col-2 middle-cell"></div>
+      </div>
+
+      <!-- 4th row-->
+      <div class="row g-0">
+        <div class="col-2 middle-cell"></div>
+        <div class="col-8 middle-cell"></div>
+        <div class="col-2 middle-cell"></div>
+      </div>
+
+      <!-- 5th row-->
+      <div class="row g-0">
+        <div class="col-2 middle-cell"></div>
+        <div class="col-8 middle-cell"></div>
+        <div class="col-2 middle-cell"></div>
+      </div>
+
+      <!-- 6th row-->
+      <div class="row g-0">
+        <div class="col-2 middle-cell"></div>
+        <div class="col-8 middle-cell"></div>
+        <div class="col-2 middle-cell"></div>
+      </div>
+
+      <!-- 7th row-->
+      <div class="row g-0">
+        <div class="col-2 middle-cell"></div>
+        <div class="col-8 middle-cell"></div>
+        <div class="col-2 middle-cell"></div>
+      </div>
+
+      <!-- 8th row-->
+      <div class="row g-0">
+        <div class="col-2 middle-cell"></div>
+        <div class="col-8 middle-cell"></div>
+        <div class="col-2 middle-cell"></div>
+      </div>
+
+      <!-- 9th row-->
+      <div class="row g-0">
+        <div class="col-2 middle-cell"></div>
+        <div class="col-8 middle-cell"></div>
+        <div class="col-2 middle-cell"></div>
+      </div>
+
+      <!-- 10th row-->
+      <div class="row g-0">
+        <div class="col-2 middle-cell"></div>
+        <div class="col-8 middle-cell"></div>
+        <div class="col-2 middle-cell"></div>
+      </div>
+      <!--End Medium rows -->
+
+      <!--Start last row -->
+      <div class="row g-0">
+        <div class="col-2 bottom-cell"></div>
+        <div class="col bottom-cell"></div>
+        <div class="col bottom-cell"></div>
+        <div class="col bottom-cell"></div>
+        <div class="col bottom-cell"></div>
+        <div class="col bottom-cell"></div>
+        <div class="col bottom-cell"></div>
+        <div class="col bottom-cell"></div>
+        <div class="col bottom-cell"></div>
+        <div class="col bottom-cell"></div>
+        <div class="col-2 bottom-cell"></div>
+      </div>
+      <!--End last row -->
+    </div>
+    <img
+      src="https://res.cloudinary.com/stack-info/image/upload/v1672159479/companies/Sumerge/Sumerge.png"
+      alt="Sumerge Logo"
+      id="sumerge-logo"
+    />
+
+    <hr />
+
+    <h2 class="d-flex justify-content-center">Bonus</h2>
+    <div class="container monopoly-container">
+      <!--Start first row -->
+      <div class="row g-0">
+        <div class="col-2 top-cell text-center">
+          <div class="property">
+            <img src="images/go.png" alt="GO" class="property-icon" />
+            <div class="property-name">GO</div>
+          </div>
+        </div>
+
+        <div class="col top-cell">
+          <div class="property purple">
+            <div class="property-name">Mediterranean Ave</div>
+            <div class="property-price">$60</div>
+          </div>
+        </div>
+
+        <div class="col top-cell text-center">
+          <div class="property">
+            <img
+              src="images/community-chest.png"
+              alt="Community Chest"
+              class="property-icon"
+            />
+            <div class="property-name">Community Chest</div>
+          </div>
+        </div>
+
+        <div class="col top-cell">
+          <div class="property purple">
+            <div class="property-name">Baltic Ave</div>
+            <div class="property-price">$60</div>
+          </div>
+        </div>
+
+        <div class="col top-cell text-center">
+          <div class="property">
+            <img
+              src="images/income-tax.png"
+              alt="Income Tax"
+              class="property-icon"
+            />
+            <div class="property-name">Income Tax</div>
+            <div class="property-price">Pay $200</div>
+          </div>
+        </div>
+
+        <div class="col top-cell text-center">
+          <div class="property">
+            <img
+              src="images/railroad.png"
+              alt="Reading Railroad"
+              class="property-icon"
+            />
+            <div class="property-name">Reading Railroad</div>
+            <div class="property-price">$200</div>
+          </div>
+        </div>
+
+        <div class="col top-cell">
+          <div class="property lightblue">
+            <div class="property-name">Oriental Ave</div>
+            <div class="property-price">$100</div>
+          </div>
+        </div>
+
+        <div class="col top-cell text-center">
+          <div class="property">
+            <img src="images/chance.png" alt="Chance" class="property-icon" />
+            <div class="property-name">Chance</div>
+          </div>
+        </div>
+
+        <div class="col top-cell">
+          <div class="property lightblue">
+            <div class="property-name">Vermont Ave</div>
+            <div class="property-price">$100</div>
+          </div>
+        </div>
+
+        <div class="col top-cell">
+          <div class="property lightblue">
+            <div class="property-name">Connecticut Ave</div>
+            <div class="property-price">$120</div>
+          </div>
+        </div>
+
+        <div class="col-2 top-cell text-center">
+          <div class="property">
+            <img src="images/jail.png" alt="Jail" class="property-icon" />
+            <div class="property-name">Jail / Just Visiting</div>
+          </div>
+        </div>
+      </div>
+
+      <!--End first row -->
+
+      <!--Start Medium rows -->
+      <!-- 2nd row -->
+      <div class="row g-0">
+        <div class="col-2 middle-cell">
+          <div class="property red">
+            <div class="property-name">Kentucky Ave</div>
+            <div class="property-price">$220</div>
+          </div>
+        </div>
+        <div class="col-8 middle-cell"></div>
+        <div class="col-2 middle-cell">
+          <div class="property lightblue">
+            <div class="property-name">Connecticut Ave</div>
+            <div class="property-price">$120</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3rd row -->
+      <div class="row g-0">
+        <div class="col-2 middle-cell">
+          <div class="property">
+            <img src="images/chance.png" class="property-icon" alt="Chance" />
+            <div class="property-name">Chance</div>
+          </div>
+        </div>
+        <div class="col-8 middle-cell"></div>
+        <div class="col-2 middle-cell">
+          <div class="property lightblue">
+            <div class="property-name">Vermont Ave</div>
+            <div class="property-price">$100</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4th row -->
+      <div class="row g-0">
+        <div class="col-2 middle-cell">
+          <div class="property red">
+            <div class="property-name">Indiana Ave</div>
+            <div class="property-price">$220</div>
+          </div>
+        </div>
+        <div class="col-8 middle-cell"></div>
+        <div class="col-2 middle-cell">
+          <div class="property">
+            <img src="images/chance.png" class="property-icon" alt="Chance" />
+            <div class="property-name">Chance</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5th row -->
+      <div class="row g-0">
+        <div class="col-2 middle-cell">
+          <div class="property red">
+            <div class="property-name">Illinois Ave</div>
+            <div class="property-price">$240</div>
+          </div>
+        </div>
+        <div class="col-8 middle-cell"></div>
+        <div class="col-2 middle-cell">
+          <div class="property lightblue">
+            <div class="property-name">Oriental Ave</div>
+            <div class="property-price">$100</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 6th row -->
+      <div class="row g-0">
+        <div class="col-2 middle-cell">
+          <div class="property">
+            <img
+              src="images/railroad.png"
+              class="property-icon"
+              alt="B&O Railroad"
+            />
+            <div class="property-name">B&O Railroad</div>
+            <div class="property-price">$200</div>
+          </div>
+        </div>
+        <div class="col-8 middle-cell"></div>
+        <div class="col-2 middle-cell">
+          <div class="property">
+            <img
+              src="images/railroad.png"
+              class="property-icon"
+              alt="Reading Railroad"
+            />
+            <div class="property-name">Reading Railroad</div>
+            <div class="property-price">$200</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 7th row -->
+      <div class="row g-0">
+        <div class="col-2 middle-cell">
+          <div class="property yellow">
+            <div class="property-name">Atlantic Ave</div>
+            <div class="property-price">$260</div>
+          </div>
+        </div>
+        <div class="col-8 middle-cell"></div>
+        <div class="col-2 middle-cell">
+          <div class="property">
+            <div class="property-name">Income Tax</div>
+            <div class="property-price">Pay $200</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 8th row -->
+      <div class="row g-0">
+        <div class="col-2 middle-cell">
+          <div class="property yellow">
+            <div class="property-name">Ventnor Ave</div>
+            <div class="property-price">$260</div>
+          </div>
+        </div>
+        <div class="col-8 middle-cell"></div>
+        <div class="col-2 middle-cell">
+          <div class="property purple">
+            <div class="property-name">Baltic Ave</div>
+            <div class="property-price">$60</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 9th row -->
+      <div class="row g-0">
+        <div class="col-2 middle-cell">
+          <div class="property">
+            <img
+              src="images/waterworks.png"
+              class="property-icon"
+              alt="Water Works"
+            />
+            <div class="property-name">Water Works</div>
+            <div class="property-price">$150</div>
+          </div>
+        </div>
+        <div class="col-8 middle-cell"></div>
+        <div class="col-2 middle-cell">
+          <div class="property">
+            <img
+              src="images/community-chest.png"
+              class="property-icon"
+              alt="Community Chest"
+            />
+            <div class="property-name">Community Chest</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 10th row -->
+      <div class="row g-0">
+        <div class="col-2 middle-cell">
+          <div class="property yellow">
+            <div class="property-name">Marvin Gardens</div>
+            <div class="property-price">$280</div>
+          </div>
+        </div>
+        <div class="col-8 middle-cell"></div>
+        <div class="col-2 middle-cell">
+          <div class="property purple">
+            <div class="property-name">Mediterranean Ave</div>
+            <div class="property-price">$60</div>
+          </div>
+        </div>
+      </div>
+
+      <!--End Medium rows -->
+
+      <!--Start last row -->
+      <div class="row g-0">
+        <div class="col-2 bottom-cell text-center">
+          <div class="property">
+            <img src="images/jail.png" alt="Jail" class="property-icon" />
+            <div class="property-name">Jail</div>
+          </div>
+        </div>
+
+        <div class="col bottom-cell">
+          <div class="property pink">
+            <div class="property-name">St. Charles Pl.</div>
+            <div class="property-price">$140</div>
+          </div>
+        </div>
+
+        <div class="col bottom-cell text-center">
+          <div class="property">
+            <img
+              src="images/electric-company.png"
+              alt="Electric Co."
+              class="property-icon"
+            />
+            <div class="property-name">Electric Co.</div>
+            <div class="property-price">$150</div>
+          </div>
+        </div>
+
+        <div class="col bottom-cell">
+          <div class="property pink">
+            <div class="property-name">States Ave</div>
+            <div class="property-price">$140</div>
+          </div>
+        </div>
+
+        <div class="col bottom-cell">
+          <div class="property pink">
+            <div class="property-name">Virginia Ave</div>
+            <div class="property-price">$160</div>
+          </div>
+        </div>
+
+        <div class="col bottom-cell text-center">
+          <div class="property">
+            <img
+              src="images/railroad.png"
+              alt="Pennsylvania RR"
+              class="property-icon"
+            />
+            <div class="property-name">Pennsylvania RR</div>
+            <div class="property-price">$200</div>
+          </div>
+        </div>
+
+        <div class="col bottom-cell">
+          <div class="property orange">
+            <div class="property-name">St. James Pl.</div>
+            <div class="property-price">$180</div>
+          </div>
+        </div>
+
+        <div class="col bottom-cell text-center">
+          <div class="property">
+            <img
+              src="images/community-chest.png"
+              alt="Community Chest"
+              class="property-icon"
+            />
+            <div class="property-name">Community Chest</div>
+          </div>
+        </div>
+
+        <div class="col bottom-cell">
+          <div class="property orange">
+            <div class="property-name">Tennessee Ave</div>
+            <div class="property-price">$180</div>
+          </div>
+        </div>
+
+        <div class="col bottom-cell">
+          <div class="property orange">
+            <div class="property-name">New York Ave</div>
+            <div class="property-price">$200</div>
+          </div>
+        </div>
+
+        <div class="col-2 bottom-cell text-center">
+          <div class="property">
+            <img
+              src="images/free-parking.png"
+              alt="Free Parking"
+              class="property-icon"
+            />
+            <div class="property-name">Free Parking</div>
+          </div>
+        </div>
+      </div>
+
+      <!--End last row -->
+    </div>
+    <img
+      src="https://res.cloudinary.com/stack-info/image/upload/v1672159479/companies/Sumerge/Sumerge.png"
+      alt="Sumerge Logo"
+      id="sumerge-logo"
+    />
+  </body>
+</html>
