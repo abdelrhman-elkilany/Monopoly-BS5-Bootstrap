@@ -181,3 +181,10 @@
     transform: rotate(360deg);
   }
 }
+
+#signature{
+    font-style: italic;
+    position: absolute;
+    bottom: 14%;
+    right: 18%;
+}
